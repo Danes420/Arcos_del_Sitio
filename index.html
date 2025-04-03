@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcos del Sitio</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="css/arcos.css">
+  <link rel="stylesheet" href="iconos/iconos.css">
+  <link rel="stylesheet" href="css/servicios.css">
+
+	
+  </head>
+  <style>
+        
+
+    .slider {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        margin: 50px auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        position: relative;
+    }
+
+    .slides img {
+        width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .slider-text {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+
+    .slider-text a {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .controls {
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .controls button {
+        background-color: rgba(0,0,0,0.5);
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .controls button:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+</style>
+  
+<body>
+
+
+
+
+
+  <div class="logo">
+    <a href=""> <img src="img/logoarc.png" alt=""></a>
+  </div>
+
+  <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+<ul class="menu">
+  <li><a href="#HistoriaT"><span class="icon-home"></span>Historia</a></li>
+  <li><a href="#ServiciosT"><span class="icon-cog"></span>Servicios</a></li>
+  <li><a href="#UbicacionT"><span class="icon-location2"></span>Ubicación</a></li>
+  <li><a href="#ContactoT"><span class="icon-address-book"></span>Contacto</a></li>
+</ul>
+  
+
+
+  <div class="slider">
+    <div class="slides">
+        <div class="slider-text">
+            <a href="#inicio">INICIO</a>
+        </div>
+        <img src="IMG/img1.JPG" alt="Imagen 1">
+        <img src="IMG/img2.JPG" alt="Imagen 2">
+        <img src="IMG/img3.JPG" alt="Imagen 3">
+        <img src="IMG/img4.JPG" alt="Imagen 4">
+        <img src="IMG/img5.JPG" alt="Imagen 5">
+    </div>
+    <div class="controls">
+        <button id="prev">&#9664;</button>
+        <button id="next">&#9654;</button>
+    </div>
+  </div>
+
+<div id="HistoriaT"><h1  >HISTORIA</h1></div>  
+
+<section class="historia" >
+<div>
+<p><p>Los <strong>Arcos del Sitio</strong>, situados en <strong>Tepotzotlán</strong>, Estado de México, son una estructura histórica que data del siglo XVIII. Esta obra, construida por los <strong>jesuitas</strong>, forma parte del <strong>exconvento de San Francisco Javier</strong>, conocido como el <strong>Convento de Tepotzotlán</strong>, que fue uno de los principales centros de <strong>evangelización</strong> en la región. Los arcos se construyeron para proporcionar <strong>agua</strong> al convento y al pueblo, utilizando una ingeniosa <strong>obra de ingeniería hidráulica</strong>.</p>
+
+<p>La estructura de los arcos es impresionante, con un diseño que combina <strong>estilo barroco</strong> y la funcionalidad de un <strong>acueducto</strong>. Los <strong>tres arcos</strong> principales se elevan majestuosamente, creando una vista panorámica que conecta el pasado colonial con la belleza natural del entorno. Los arcos fueron un símbolo de la <strong>prosperidad</strong> y poder de la orden jesuita en la época.</p>
+
+<p>Durante los siglos siguientes, los <strong>Arcos del Sitio</strong> fueron testigos de numerosos eventos históricos, como las luchas de <strong>independencia</strong> y las reformas que afectaron a las órdenes religiosas. Hoy en día, los arcos son considerados uno de los principales <strong>atractivos turísticos</strong> de Tepotzotlán, y una muestra viviente de la <strong>herencia cultural</strong> y arquitectónica de México.</p>
+
+<p>Con el paso de los años, este monumento ha sido cuidadosamente <strong>restaurado</strong> y preservado, permitiendo que las generaciones actuales disfruten de su <strong>majestuosidad</strong>. Los Arcos del Sitio no solo son un recordatorio de la época colonial, sino también un homenaje al <strong>trabajo artesanal</strong> y la visión de los constructores de esa época.</p>
+</p>
+</div>
+
+</section>
+
+<div id="ServiciosT"><h1>SERVICIOS</h1></div>
+
+
+  <div class="imagenes">
+    <div class="t1">
+      <p class="titulo-servicio">Alberca</p>
+      <img src="img/servicios/piscina.jpg" class="piscina" alt="Alberca">
+        </div>
+  
+    <div class="t2">
+      <p class="titulo-servicio">Paseo A Caballo</p>
+      <img src="img/servicios/caballo.jpg" class="caballo" alt="Paseo a caballo">
+  
+    </div>
+  
+    <div class="t3">
+      <p class="titulo-servicio">Tirolesa</p>
+      <img src="img/servicios/tirolesa.jpg" class="tirolesa" alt="Tirolesa">
+   
+        </div>
+  </div>
+    
+  <div class="imagenes2">
+    <div class="t1">
+        <p class="titulo-servicio">Camping</p>
+        <img src="img/servicios/camping.jpg" class="camping" alt="Camping">
+          </div>
+    
+    <div class="t2">
+      <p class="titulo-servicio">Cabañas</p>
+      <img src="img/servicios/cabaña.jpg" class="cabañas" alt="Cabañas">
+      
+    </div>
+    
+    <div class="t3">
+        <p class="titulo-servicio">Palapas con Azador</p>
+        <img src="img/servicios/fuego.jpg" class="palapas" alt="Palapas">
+           </div>
+  </div> 
+  <div id="UbicacionT"><h1>UBICACIÓN</h1></div>
+
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.741980783219!2d-99.34665682651864!3d19.766114029948824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d223a5266be7b5%3A0xc7b9d7b9263d98a8!2sArcos%20Del%20Sitio%20Parque%20Ecoturistico!5e0!3m2!1sen!2smx!4v1734119962049!5m2!1sen!2smx" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="ContactoT"><h1>CONTACTO</h1></div>
+
+<div id="ContactoP">
+  <p><strong>VIAJE REDONDO</strong></p>
+  <p><strong><span class="precio">$390.00 MXN POR PERSONA</span></strong></p>  
+  <p><strong>INCLUYE LA ENTRADA</strong></p>  
+  <p><strong>SALIDAS PUNTUALES</strong></p>  
+  <p><strong>ESTANCIA DEL DIA: TIEMPO LIBRE</strong></p>  
+  <p><strong>SE ACEPTAN MASCOTAS</strong></p> 
+  <p><strong>SALIDAS LOS 365 DIAS DEL AÑO</strong></p>
+  <p><strong>TRANSPORTE SEGURO Y CÓMODO</strong></p>  
+  <p><strong>DIVERSIÓN GARANTIZADA</strong></p> 
+</div>
+
+
+<div id="ContactoW">
+
+  <a href="https://wa.me/525516841874?text=Hola,%20quiero%20más%20información" 
+   target="_blank" 
+   style="display: inline-block; background-color: #25D366; color: white; padding: 10px 20px; text-align: center; border-radius: 5px; text-decoration: none; font-weight: bold;">
+   Enviar mensaje por WhatsApp
+</a>
+
+</div>
+
+<div id="TransporteT"><h1>TRANSPORTE</h1></div>
+
+<div id="TransporteA"><img src="img/transporte.jpeg" alt=""></div>
+
+<footer>
+
+  <img src="img/tepo.png" alt="" class="tepo">
+
+  <img src="img/mexico.png" alt="" class="mexico">
+  <img src="img/tepo.png" alt="" class="tepo2">
+ 
+</footer>
+
+
+<div class="iconos">
+  <a href="https://www.facebook.com/danes220" class="facebook" target="_blank">
+    <span class="icon-facebook"></span>
+  </a>
+  <a href="https://twitter.com/danes220" class="twitter" target="_blank">
+    <span class="icon-twitter"></span>
+  </a>
+  <a href="https://www.youtube.com/channel/UCLDEU3LuFxRIoxjE29TUPmg" class="youtube" target="_blank">
+    <span class="icon-youtube"></span>
+  </a>
+  <a href="mailto:danes220@example.com" class="mail" target="_blank">
+    <span class="icon-mail2"></span>
+  </a>
+</div>
+
+<div class="legal">
+<p> Copyright (c) 2025 Copyright Holder All Rights Reserved.</p>
+</div>
+
+<script>
+  const slides = document.querySelector('.slides');
+  const images = document.querySelectorAll('.slides img');
+  const prevButton = document.getElementById('prev');
+  const nextButton = document.getElementById('next');
+  let currentIndex = 0;
+  const totalImages = images.length;
+
+  function updateSliderPosition() {
+      const offset = -currentIndex * 100;
+      slides.style.transform = `translateX(${offset}vw)`;
+  }
+
+  function showNextSlide() {
+      currentIndex = (currentIndex + 1) % totalImages;
+      updateSliderPosition();
+  }
+
+  function showPreviousSlide() {
+      currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+      updateSliderPosition();
+  }
+
+  nextButton.addEventListener('click', showNextSlide);
+  prevButton.addEventListener('click', showPreviousSlide);
+
+  setInterval(showNextSlide, 5000);
+
+
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+
+      function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+  }
+</script>
+</body>
+</html>
